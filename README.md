@@ -15,3 +15,9 @@ If you would like to attempt this yourself, delete lines 24 and 38-67.  If you w
  * Then, a new page is mapped using mmap().  By passing mmap() the fault address, mmap returns the start address of a newly mapped page which begins at the page boundary which was nearest the fault.  
 
  * The return value from this mapping is assigned to a pointer.  This pointer is used to calculate the offset in virtual memory since the start of calculations, and pass the index of the next calculation into the calculate function.  
+
+# How to run this code
+
+mmap is a single file C solution compiled for Ubuntu 22.04.1 LTS.  You may want to recompile it using the provided Makefile.  If you are running this on a Mac or Windows machine you will need to manually compile mmap.c with the following gcc commands:
+
+$ 
