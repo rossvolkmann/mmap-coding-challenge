@@ -18,6 +18,6 @@ If you would like to attempt this yourself, delete lines 24 and 38-67.  If you w
 
 # How to run this code
 
-mmap is a single file C solution compiled for Ubuntu 22.04.1 LTS.  You may want to recompile it using the provided Makefile.  If you are running this on a Mac or Windows machine you will need to manually compile mmap.c with the following gcc commands:
+mmap is a single file C solution compiled for Ubuntu 22.04.1 LTS.  You may want to recompile it using the provided Makefile.  If you are running this on a Mac or Windows machine you will need to manually compile mmap.c with the following gcc command:
 
-$ 
+$ gcc mmap.c -lm -o mmap
